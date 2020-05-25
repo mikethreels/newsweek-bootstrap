@@ -1,7 +1,7 @@
 {
-  "name": "heatmap",
+  "name": "newsweek-bootstrap-project",
   "version": "1.0.0",
-  "description": "Heatmap of Smashing Magazine",
+  "description": "copy of the newsweek homepages",
   "main": "stylelint.config.js",
   "dependencies": {},
   "devDependencies": {
