@@ -295,6 +295,10 @@ a {
     font-weight: 700;
 }
 
+.sign-up-title {
+    background-color: #f72310;
+}
+
 
 /* helper */
 .flex {display: flex;}
