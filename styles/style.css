@@ -1,0 +1,56 @@
+.top-navbar {
+    background-color: #f72310;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    padding: 15px;
+}
+
+.navbar-logo svg {
+    fill: white;
+    width: 132px;
+    height: 20px;
+}
+
+.navbar-buttons {
+    align-items: center;
+    margin-right: 10px;
+}
+
+.login-button,
+.menu-button {
+    background-color: #f72310;
+    color: white;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+}
+
+.menu-button {
+    opacity: 0.5;
+}
+
+.login-button svg {
+    width: 30px;
+    height: 30px;
+}
+
+.free-trial-button {
+    background-color: #ffe400;
+    color: black;
+    font: bold 13px/20px "Roboto Condensed",sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* helper */
+.flex {display: flex;}
