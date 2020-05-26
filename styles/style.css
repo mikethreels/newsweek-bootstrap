@@ -273,12 +273,26 @@ a {
     bottom: 3px;
     background-color: #c2d4d7;
     padding: 3px 6px 3px 6px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .heroe-img a,
 .heroe-img img {
     width: 100%;
     height: 100%;
+}
+
+.heroe-content {
+    margin: 15px 0 23px;
+}
+
+.heroe-content a {
+    color: rgba(3, 3, 3, 0.5);
+    font-size: 15px;
+    font-weight: 700;
 }
 
 
