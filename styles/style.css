@@ -264,7 +264,8 @@ a {
     border-top: 1px solid rgba(3, 3, 3, 0.12);;
 }
 
-.heroe-img-container {
+.heroe-img-container,
+.cover-img-container {
     position: relative;
 }
 
@@ -275,6 +276,17 @@ a {
     padding: 3px 6px 3px 6px;
     color: #333;
     font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cover-img-category {
+    position: absolute;
+    bottom: 3px;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 8px 10px 8px 10px;
+    color: #f72210;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -295,10 +307,83 @@ a {
     font-weight: 700;
 }
 
-.sign-up-title {
-    background-color: #f72310;
+.sign-up {
+    max-width: 300px;
+    margin: 0 auto 30px;
+    border: 1px solid #e5e5e5;
+    background-color: #f4f5f6;
+    padding: 20px;
 }
 
+.sign-up-title {
+    font-size: 19px;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sign-up-title img,
+.in-the-magazine-title img {
+    background-color: #f72310;
+    height: 28px;
+    width: 29px;
+    margin-right: 10px;
+}
+
+.in-the-magazine-title {
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.sign-up-form input {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+}
+
+.sign-up-form :nth-child(2) {
+    margin-top: 8px;
+    background-color: #f61602;
+    color: white;
+}
+
+.see-features {
+    color: black; 
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mag-cat {
+    background-color: #f72210;
+    padding: 5px 9px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.article-category a {
+    padding: 5px 9px;
+    color: #f72210;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.article-category {
+    margin: 10px 0;
+}
+
+.mag-article-content {
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: black; 
+}
 
 /* helper */
 .flex {display: flex;}
