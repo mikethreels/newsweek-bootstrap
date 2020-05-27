@@ -69,7 +69,8 @@ a {
 .featered-article-section,
 .debate-section,
 .opinion-section,
-.more-section {
+.more-section,
+.editors-pick-section {
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(3, 3, 3, 0.12);
     margin-bottom: 40px;
@@ -112,7 +113,7 @@ a {
 
 .story-content h1 {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -193,7 +194,6 @@ a {
 .debate-topic-1 {
     border-top: 4px solid #f92859;
     padding: 10px 0 4px;
-    margin: 0 15px 0 15px;
     width: auto;
 }
 
@@ -204,7 +204,6 @@ a {
     padding: 0 0 12px 0;
     border-bottom: 4px solid #1c87fb;
     margin-bottom: 18px;
-    margin: 0 15px 0 15px;
     width: auto;
 }
 
@@ -256,6 +255,7 @@ a {
 
 .more-img img{
     height: 95px;
+    max-width: 95px;
     margin-right: 15px;
 }
 
@@ -337,6 +337,8 @@ a {
     font-size: 19px;
     font-weight: 700;
     margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(3, 3, 3, 0.12);
 }
 
 .sign-up-form input {
@@ -375,7 +377,7 @@ a {
 }
 
 .article-category {
-    margin: 10px 0;
+    margin: 10px 0 20px;
 }
 
 .mag-article-content {
@@ -383,6 +385,24 @@ a {
     margin-bottom: 30px;
     font-weight: 700;
     color: black; 
+}
+
+.last-art-img-category {
+    position: absolute;
+    bottom: 3px;
+    color: rgba(255, 255, 255, .9);
+    padding: 8px 10px 8px 10px;
+    background-color: #f72210;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.last-mag-discription {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0 30px;
 }
 
 /* helper */
