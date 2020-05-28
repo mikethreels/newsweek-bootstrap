@@ -4,8 +4,7 @@
   "description": "The next web clone",
   "main": "index.js",
   "scripts": {
-    "lintcss": "stylelint assets/css",
-    "lintcss:fix": "stylelint --fix assets/css"
+    "stylelint": "stylelint ’**/*.scss’"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,7 @@
   "homepage": "https://github.com/AdfPizarro/TNW#readme",
   "devDependencies": {
     "stylelint": "^13.5.0",
-    "stylelint-config-recommended": "^3.0.0"
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
