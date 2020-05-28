@@ -564,6 +564,16 @@ a {
     cursor: pointer;
 }
 
+.sign-up-img img {
+    max-width: 191px;       
+}
+
+@media(max-width: 767px) {
+    .sign-up-img {
+        display: none;
+    }
+}
+
 @media(min-width: 768px) {
     .hero-section-container {
         display: grid;
@@ -579,22 +589,33 @@ a {
         font-size: 10px;
     }
 
-    .in-the-magazine-container {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 10px;
-    }
-
     .mag-cat {
         font-size: 13px;
     }
 
+    .subscribe-section {
+        border: none;
+        overflow: hidden;
+        margin-bottom: 80px;
+    }
+
+    .subscribe-title {
+        margin-top: 30px;
+        text-align: start;
+    }
+
+    .sign-up-newsletter {
+        padding: 0;
+    }
+
+    .sign-up-info {
+        margin: 15px;
+    }
+
 }
 
-.container {
-    margin: 0;
-    max-width: 100%;
-}
+
+
 
 
 /* helper */
