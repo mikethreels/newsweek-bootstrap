@@ -2,7 +2,7 @@
 
 ![screenshot](./images/app-screenshot.png)
 
-Clone of the website [The next Web](https://thenextweb.com/)
+Clone of the website [Newweek](https://www.newsweek.com/)
 
 ## Built With
 
@@ -10,13 +10,13 @@ Clone of the website [The next Web](https://thenextweb.com/)
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://mikethreels.github.io/newsweek-bootstrap/)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-git clone https://github.com/AdfPizarro/TNW
+git clone https://github.com/mikethreels/newsweek-bootstrap
 Open the index.html with your favorite browser
 Explore the website
 
