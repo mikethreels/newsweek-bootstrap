@@ -564,9 +564,14 @@ a {
     cursor: pointer;
 }
 
-.sign-up-img img {
+.sign-up-img {
+    width: 48%;
     max-width: 191px;       
+    background-image: url(../images/starting5-homepage.png);
+    background-size: cover;
+    background-position: center;
 }
+
 
 @media(max-width: 767px) {
     .sign-up-img {
