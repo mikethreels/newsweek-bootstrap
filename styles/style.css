@@ -141,6 +141,10 @@ nav::before {
   text-transform: none;
 }
 
+.last-bottom-pick .no-border {
+  border: none;
+}
+
 .featured-article-img.url1 { background-image: url(../images/extra1.jpg); }
 .featured-article-img.url2 { background-image: url(../images/extra2.jpg); }
 .featured-article-img.url3 { background-image: url(../images/extra3.jpg); }
