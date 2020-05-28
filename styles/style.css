@@ -262,7 +262,7 @@ h4 {
   padding-bottom: 20px;
 }
 
-.section-title {
+.section-title h2 {
   color: rgba(3, 3, 3, 0.4);
   text-transform: uppercase;
   font-size: 16px;
@@ -290,7 +290,7 @@ h4 {
   width: 100%;
 }
 
-.story-content h1 {
+.story-content h2 {
   color: black;
   font-size: 18px;
   line-height: 24px;
@@ -447,7 +447,7 @@ h4 {
   position: relative;
 }
 
-.heroe-img-category {
+.heroe-img-category h3 {
   position: absolute;
   bottom: 3px;
   background-color: #c2d4d7;
@@ -458,7 +458,7 @@ h4 {
   text-transform: uppercase;
 }
 
-.cover-img-category {
+.cover-img-category h3 {
   position: absolute;
   bottom: 3px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -582,14 +582,14 @@ h4 a:hover {
   padding: 0;
 }
 
-.mag-article-content {
+.mag-article-content h3 {
   font-size: 14px;
   margin-bottom: 30px;
   font-weight: 700;
   color: black;
 }
 
-.last-art-img-category {
+.last-art-img-category h3 {
   position: absolute;
   bottom: 3px;
   color: rgba(255, 255, 255, 0.9);
