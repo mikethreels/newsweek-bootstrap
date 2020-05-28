@@ -77,6 +77,11 @@ a {
     margin-bottom: 40px;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 .story {
     padding-bottom: 20px;
 }
@@ -386,6 +391,15 @@ a {
     margin: 10px 0 20px;
 }
 
+.article-category :nth-child(2) {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.article-category :nth-child(2) a {
+    padding: 0;
+}
+
 .mag-article-content {
     font-size: 14px;
     margin-bottom: 30px;
@@ -562,11 +576,25 @@ a {
     }
 
     .heroe-img-category {
-        font-size: 11px;
+        font-size: 10px;
+    }
+
+    .in-the-magazine-container {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .mag-cat {
+        font-size: 13px;
     }
 
 }
 
+.container {
+    margin: 0;
+    max-width: 100%;
+}
 
 
 /* helper */
