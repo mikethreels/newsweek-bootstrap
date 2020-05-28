@@ -1,7 +1,6 @@
 # newsweek-bootstrap
 
-
-![screenshot](./app_screenshot.png)
+![screenshot](./images/app-screenshot.png)
 
 Clone of the website [The next Web](https://thenextweb.com/)
 
