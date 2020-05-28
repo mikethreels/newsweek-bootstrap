@@ -139,7 +139,105 @@ nav::before {
     border: none;
 }
 
+.last-bottom-pick .block-title {
+    border-top: 1px solid #d9d9d9;
+    color: #f72210;
+    padding-top: 25px;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: none;
+}
 
+.featured-article-img.url1 {background-image: url(../images/extra1.jpg);}
+.featured-article-img.url2 {background-image: url(../images/extra2.jpg);}
+.featured-article-img.url3 {background-image: url(../images/extra3.jpg);}
+.featured-article-img.url4 {background-image: url(../images/extra4.jpg);}
+.featured-article-img.url5 {background-image: url(../images/trump-campaign-store-biden-black.jpg);}
+.featured-article-img.url6 {background-image: url(../images/extra5.jpg);}
+.featured-article-img.url7 {background-image: url(../images/extra6.jpg);}
+.featured-article-img.url8 {background-image: url(../images/extra7.png);}
+.featured-article-img.url9 {background-image: url(../images/extra8.png);}
+.featured-article-img.url10 {background-image: url(../images/extra9.jpg);}
+.featured-article-img.url11 {background-image: url(../images/extra10.jpg);}
+.featured-article-img.url12 {background-image: url(../images/extra11.jpg);}
+
+.featured-article-img {
+    background-position: 50%;
+    background-size: cover;
+    padding-bottom: 66.7506%;
+}
+
+.d-flex {
+    border-bottom: 1px solid rgba(3, 3, 3, 0.12);
+}
+
+.last-bottom-pick,
+h4 {
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h4 a:hover {
+    color: black;
+    text-decoration: underline #f72210;
+}
+
+.last-bottom-pick {
+    font-size: 17px;
+}
+
+.pick-side-info {
+    margin-left: 10px;
+}
+
+.pick-side-info a:hover {
+    text-decoration: none;
+    color: #f92859;
+}
+
+.last-bottom-pick-side li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.last-bottom-pick-side li:first-child {
+    padding-top: 0;
+}
+
+.last-bottom-pick-side li:first-child .last-bottom-pick-side-img a >div  {
+    height: 62px;
+}
+
+.last-bottom-pick-side-img-background1 {background-image: url(../images/side1.jpg);}
+.last-bottom-pick-side-img-background2 {background-image: url(../images/side2.jpg);}
+.last-bottom-pick-side-img-background3 {background-image: url(../images/side3.jpg);}
+.last-bottom-pick-side-img-background4 {background-image: url(../images/side4.jpg);}
+.last-bottom-pick-side-img-background5 {background-image: url(../images/side5.jpg);}
+.last-bottom-pick-side-img-background6 {background-image: url(../images/side6.jpg);}
+.last-bottom-pick-side-img-background7 {background-image: url(../images/side7.jpg);}
+.last-bottom-pick-side-img-background8 {background-image: url(../images/side8.jpg);}
+.last-bottom-pick-side-img-background9 {background-image: url(../images/side9.png);}
+.last-bottom-pick-side-img-background10 {background-image: url(../images/side10.jpg);}
+.last-bottom-pick-side-img-background11 {background-image: url(../images/side11.png);}
+.last-bottom-pick-side-img-background12 {background-image: url(../images/side12.jpg);}
+.last-bottom-pick-side-img-background13 {background-image: url(../images/side13.jpg);}
+.last-bottom-pick-side-img-background14 {background-image: url(../images/side14.jpg);}
+.last-bottom-pick-side-img-background15 {background-image: url(../images/side15.jpg);}
+.last-bottom-pick-side-img-background16 {background-image: url(../images/side16.jpg);}
+.last-bottom-pick-side-img-background17 {background-image: url(../images/side17.jpg);}
+.last-bottom-pick-side-img-background18 {background-image: url(../images/side18.jpg);}
+
+.last-bottom-pick-side-img a >div {
+    width: 95px;
+    height: 95px;
+    background-position: 50%;
+    background-size: cover;
+    z-index: 3;
+    position: relative;
+}
 
 .top-story-section,
 .featered-article-section,
@@ -148,7 +246,8 @@ nav::before {
 .more-section,
 .editors-pick-section,
 .subscribe-section,
-.sponsored {
+.sponsored,
+.last-bottom-pick-section{
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(3, 3, 3, 0.12);
     margin-bottom: 40px;
@@ -555,6 +654,7 @@ nav::before {
     text-align: center;
     width: 90%;
     z-index: 1;
+
 }
 
 .subscribe-title h3 {
@@ -719,7 +819,8 @@ nav::before {
 @media(max-width: 1023px) {
     nav,
     .weather,
-    .nav-subscribe {
+    .nav-subscribe,
+    .last-bottom-pick-section {
         display: none;
     }
 }
@@ -738,6 +839,14 @@ nav::before {
     .menu-button,
     .free-trial-button {
         display: none;
+    }
+
+    .sign-up-container {
+        margin-top: 35px;
+    }
+
+    .subscribe-title {
+        max-width: 250px;
     }
 }
 
