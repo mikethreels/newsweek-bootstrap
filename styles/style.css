@@ -2,8 +2,10 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 main {
-    padding-top: 20px;
+    margin-top: 80px;
 }
 
 a {
@@ -25,9 +27,81 @@ a {
     height: 20px;
 }
 
+nav {
+    width: 100%;
+    font-weight: 700;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 80px;
+    margin-top: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.search-bar {
+    width: 80px;
+    border: none;
+    padding: 0;
+}
+
+.last-nav-link {
+    border: none;
+    padding: 0;
+}
+
+.search-bar input {
+    background: url(../images/magnifier.svg) 55px 0px no-repeat;
+    width: 100%;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+nav li {
+    border-right: 1px solid rgba(3, 3, 3, 0.12);
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 5px;;
+}
+
+nav::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 66px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+    box-sizing: content-box;
+}
+
 .navbar-buttons {
     align-items: center;
     margin-right: 10px;
+}
+
+.weather {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.weather a >img {
+    height: 24px;
+    vertical-align: middle;  
+}
+
+.date {
+    font-weight: 500;
 }
 
 .login-button,
@@ -50,7 +124,8 @@ a {
     height: 30px;
 }
 
-.free-trial-button {
+.free-trial-button,
+.nav-subscribe {
     background-color: #ffe400;
     color: black;
     font-weight: 700;
@@ -63,6 +138,8 @@ a {
     border-radius: 3px;
     border: none;
 }
+
+
 
 .top-story-section,
 .featered-article-section,
@@ -637,6 +714,31 @@ a {
         margin: 15px;
     }
 
+}
+
+@media(max-width: 1023px) {
+    nav,
+    .weather,
+    .nav-subscribe {
+        display: none;
+    }
+}
+
+@media(min-width: 1023px) {
+    .navbar-logo svg {
+        fill: white;
+        width: 396px;
+        height: 60px;
+    }
+    
+    nav {
+        margin-top: 90px;
+    }
+
+    .menu-button,
+    .free-trial-button {
+        display: none;
+    }
 }
 
 
