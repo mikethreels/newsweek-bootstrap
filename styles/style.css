@@ -757,6 +757,11 @@ h4 a:hover {
   .sign-up-img {
     display: none;
   }
+
+  h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -812,7 +817,9 @@ h4 a:hover {
 @media (max-width: 1023px) {
   nav,
   .weather,
-  .nav-subscribe,
+  .nav-subscribe {
+    display: none;
+  }
 }
 
 @media (min-width: 1023px) {
