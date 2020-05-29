@@ -813,9 +813,6 @@ h4 a:hover {
   nav,
   .weather,
   .nav-subscribe,
-  .last-bottom-pick-section {
-    display: none;
-  }
 }
 
 @media (min-width: 1023px) {
