@@ -619,10 +619,6 @@ h4 a:hover {
   text-transform: uppercase;
 }
 
-.subscribe-section {
-  flex-direction: column;
-}
-
 .subscribe-image-container {
   position: relative;
   height: 160px;
@@ -749,12 +745,9 @@ h4 a:hover {
   background-position: center;
 }
 
-.subscribe-img {
-  justify-content: center;
-}
-
 @media (max-width: 767px) {
-  .sign-up-img {
+  .sign-up-img,
+  .button-text {
     display: none;
   }
 
@@ -765,11 +758,19 @@ h4 a:hover {
 }
 
 @media (min-width: 768px) {
+  #Layer_2 {
+    display: none;
+  }
   .hero-section-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 10px;
   }
+
+  .login-button {
+    margin-right: 30px;
+    font-weight: 700;
+  }  
 
   .footer-logo {
     flex-direction: row;
@@ -820,6 +821,10 @@ h4 a:hover {
   .nav-subscribe {
     display: none;
   }
+
+  main {
+    margin-top: 15px;
+  }
 }
 
 @media (min-width: 1023px) {
@@ -844,6 +849,7 @@ h4 a:hover {
 
   .subscribe-title {
     max-width: 250px;
+    margin-left: 30px;
   }
 }
 
