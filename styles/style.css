@@ -702,14 +702,14 @@ h4 a:hover {
   padding: 15px;
 }
 
-.social-footer,
-.footer-logo {
-  flex-direction: column;
-}
-
 .social-footer {
   border-bottom: 1px solid rgba(3, 3, 3, 0.12);
   margin-bottom: 10px;
+  margin-left: 0;
+}
+
+.footer-logo p {
+  padding: 0;
 }
 
 .footer-logo svg {
@@ -725,11 +725,14 @@ h4 a:hover {
   text-transform: uppercase;
 }
 
+
 .social-icons i {
   font-size: 23px;
   color: #666;
   margin: 0 10px 10px 0;
 }
+
+
 
 .info-footer {
   font-size: 14px;
@@ -761,30 +764,14 @@ h4 a:hover {
   #Layer_2 {
     display: none;
   }
-  .hero-section-container {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 10px;
-  }
-
+ 
   .login-button {
     margin-right: 30px;
     font-weight: 700;
   }  
 
-  .footer-logo {
-    flex-direction: row;
-    align-items: flex-end;
-  }
-
-  .social-footer {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-
-  .culture {
-    grid-column: span 3;
+  .social-icons{
+    margin-left: 45px;
   }
 
   .heroe-img-category {
