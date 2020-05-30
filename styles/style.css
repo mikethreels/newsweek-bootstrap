@@ -725,14 +725,11 @@ h4 a:hover {
   text-transform: uppercase;
 }
 
-
 .social-icons i {
   font-size: 23px;
   color: #666;
   margin: 0 10px 10px 0;
 }
-
-
 
 .info-footer {
   font-size: 14px;
@@ -764,13 +761,13 @@ h4 a:hover {
   #Layer_2 {
     display: none;
   }
- 
+
   .login-button {
     margin-right: 30px;
     font-weight: 700;
-  }  
+  }
 
-  .social-icons{
+  .social-icons {
     margin-left: 45px;
   }
 
